@@ -10,9 +10,9 @@ const elTitle = document.querySelector(".title");
 
 elButton.addEventListener("click", function(evt){
     evt.preventDefault()
-    elTitle.innerHTML = `Piyoda ${elInput.value*3.6}km,
-    Velosiped ${elInput.value*20.1}km,
-    Mashina ${elInput.value*70}km,
-    Samolyot ${elInput.value*800}km`
+    elTitle.innerHTML = `Piyoda ${elInput.value/3.6} km/soat,
+    Velosiped ${elInput.value/20.1} km/soat,
+    Mashina ${elInput.value/70} km/soat,
+    Samolyot ${elInput.value/800} km/soat`
 }
 )
